@@ -82,6 +82,7 @@ res_out = inner_join(filter(res_out, Culture == 'Monoculture'),
   mutate(Significant =ifelse(padj.x <= 0.1, ifelse(padj.y <= 0.1, "Both", "Monoculture"), 'Coculture')) %>%
   select(-c(padj.x, padj.y)) %>%
   arrange(mutation, Drug, Concentration, Significant)
+res_out = arrange(res_out, Drug, mutation)
 xlsx::write.xlsx(res_out, file=paste0(datadir, "drug-gene-associations.xlsx"))
 
 pth = get_bh_threshold(res_ttest$p.value, alpha = 0.1)

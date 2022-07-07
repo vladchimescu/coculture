@@ -1,0 +1,15 @@
+Drug	Culture	Concentration	Toxic_to_stroma
+Ganetespib	Coculture	9	Toxic
+Ganetespib	Coculture	0.6	Toxic
+UMI-77	Coculture	22.5	Toxic
+Dasatinib	Coculture	0.9	Toxic
+Dasatinib	Coculture	0.06	Toxic
+Bafilomycin A1	Coculture	9	Toxic
+Bafilomycin A1	Coculture	0.6	Toxic
+Vorinostat + PEITC	Coculture	9	Toxic
+Vorinostat	Coculture	9	Toxic
+Thioguanine	Coculture	9	Toxic
+Thioguanine	Coculture	0.6	Toxic
+Carfilzomib	Coculture	0.225	Toxic
+Ixazomib	Coculture	22.5	Toxic
+Obatoclax mesylate	Coculture	22.5	Toxic
